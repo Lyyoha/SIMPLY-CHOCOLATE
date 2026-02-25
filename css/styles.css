@@ -16,6 +16,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #fafafa;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .main-title {
     font-weight: 600;
         font-size: 24px;
@@ -28,15 +40,12 @@ body {
 .accent-color {
     color: var(--orange);
 }
+/* PAGE HEADER *//* PAGE HEADER *//* PAGE HEADER *//* PAGE HEADER *//* PAGE HEADER *//* PAGE HEADER *//* PAGE HEADER *//* PAGE HEADER */
 .page-logo {
-    font-style: italic;
     font-weight: 700;
     font-size: 18px;
-
-    /* line-height: 20px; */
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: -0.03em;
-    color: var(--black);
 }
 .nav-menu-link {
         font-weight: 500;
@@ -49,6 +58,7 @@ body {
 .nav-menu-link:focus {
     color: var(--orange);
 }
+/* SECTION HERO *//* SECTION HERO *//* SECTION HERO *//* SECTION HERO *//* SECTION HERO *//* SECTION HERO *//* SECTION HERO *//* SECTION HERO */
 .section-hero {
     background: var(--violet);
 }
@@ -91,6 +101,7 @@ body {
 .scroll-link:focus {
     color: var(--orange);
 }
+/* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS *//* BENEFITS */
 .benefits-section {
     background: var(--violet);
 }
@@ -105,6 +116,7 @@ body {
         letter-spacing: -0.02em;
         color: rgba(255, 255, 255, 0.7);
 }
+/* PRODUCT SECTION *//* PRODUCT SECTION *//* PRODUCT SECTION *//* PRODUCT SECTION *//* PRODUCT SECTION *//* PRODUCT SECTION *//* PRODUCT SECTION *//* PRODUCT SECTION */
 .product-text {
     font-weight: 400;
         font-size: 14px;
@@ -157,6 +169,7 @@ body {
         text-transform: uppercase;
         color: var(--black);
 }
+/* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE *//* HOW MADE */
 .how-made-title {
     font-weight: 600;
         font-size: 18px;
@@ -170,6 +183,7 @@ body {
         letter-spacing: -0.02em;
         color: var(--black);
 }
+/* REVIEWS SECTION *//* REVIEWS SECTION *//* REVIEWS SECTION *//* REVIEWS SECTION *//* REVIEWS SECTION *//* REVIEWS SECTION *//* REVIEWS SECTION *//* REVIEWS SECTION */
 .reviews-list-fullname {
     font-weight: 600;
         font-size: 18px;
@@ -198,6 +212,7 @@ body {
         background: var(--orange);
         cursor: pointer;
 }
+/* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER *//* PAGE FOOTER */
 .page-footer {
     background: var(--violet);
 }
